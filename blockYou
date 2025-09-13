@@ -5,3 +5,36 @@
 127.0.0.1 youtube.com/api/stats/ads/*
 127.0.0.1 googleadservices.com*
 127.0.0.1 adservice.google.com*
+
+
+! Bloqueo de anuncios de video
+||youtube.com/get_midroll_info*
+||youtube.com/api/stats/ads*
+||youtube.com/pagead/*
+||youtube.com/yva_video?*
+||googleads.g.doubleclick.net/*
+||doubleclick.net/*
+||youtube.com/ptracking*
+||youtube.com/ads/*
+||youtube.com/embed/*adformat=*
+||yt3.ggpht.com/*=sponsor
+
+! Bloqueo de elementos visuales de anuncios
+youtube.com##.ytp-ad-module
+youtube.com##.video-ads
+youtube.com##.ytp-ad-player-overlay
+youtube.com##.ytp-ad-overlay-container
+youtube.com##.ytp-ad-skip-button-container
+youtube.com##.ytp-ad-skip-button-slot
+youtube.com##.ytp-ad-progress
+youtube.com##.ytp-ad-preview-container
+youtube.com##.ytp-ad-text
+youtube.com##.ytp-ad-message-container
+youtube.com##.ytp-ad-click-overlay
+youtube.com##.ytp-ad-overlay-image
+
+! Bloqueo de sugerencias/promociones
+youtube.com##ytd-promoted-sparkles-text-search-renderer
+youtube.com##ytd-promoted-video-renderer
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-carousel-ad-renderer
